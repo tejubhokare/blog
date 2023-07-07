@@ -1,6 +1,12 @@
+import articles from "./article-content";
+import ArticleList from "../components/ArticlesList";
+
 const ArticleListPage = () => {
     return (
-        <h1>This is the article list page</h1>
+        <>
+            <h1> Articles </h1>
+            <ArticleList articles={articles}></ArticleList>
+        </>
     );
 }
 
